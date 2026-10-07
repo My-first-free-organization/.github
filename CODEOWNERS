@@ -1,0 +1,15 @@
+# Default code owners
+* @My-first-free-organization/backend-engineers
+
+# Frontend
+*.tsx @My-first-free-organization/frontend-engineers
+*.ts @My-first-free-organization/frontend-engineers
+*.css @My-first-free-organization/frontend-engineers
+
+# DevOps
+Dockerfile @My-first-free-organization/devops
+*.yml @My-first-free-organization/devops
+.github/ @My-first-free-organization/devops
+
+# Security
+SECURITY.md @My-first-free-organization/security
