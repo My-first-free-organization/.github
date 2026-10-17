@@ -1,15 +1,26 @@
-# Default code owners
-* @My-first-free-organization/backend-engineers
+# Default owners
+* @My-first-free-organization/backend-engineers @My-first-free-organization/sre
 
 # Frontend
-*.tsx @My-first-free-organization/frontend-engineers
-*.ts @My-first-free-organization/frontend-engineers
+*.tsx @My-first-free-organization/frontend-engineers @My-first-free-organization/design
 *.css @My-first-free-organization/frontend-engineers
+*.scss @My-first-free-organization/frontend-engineers
 
-# DevOps
-Dockerfile @My-first-free-organization/devops
-*.yml @My-first-free-organization/devops
-.github/ @My-first-free-organization/devops
+# DevOps & CI
+Dockerfile @My-first-free-organization/devops @My-first-free-organization/sre
+docker-compose* @My-first-free-organization/devops
+.github/workflows/ @My-first-free-organization/devops
+terraform/ @My-first-free-organization/devops
 
 # Security
 SECURITY.md @My-first-free-organization/security
+**/auth/ @My-first-free-organization/security
+**/crypto/ @My-first-free-organization/security
+
+# Documentation
+docs/ @My-first-free-organization/technical-writers
+*.md @My-first-free-organization/technical-writers
+
+# ML/AI
+*.py @My-first-free-organization/ml-engineers
+models/ @My-first-free-organization/ml-engineers
